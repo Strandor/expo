@@ -43,7 +43,7 @@ const STYLES_PARAGRAPH_DIV = css`
     max-width: 1200px;
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     &.is-wider {
       max-width: 100%;
       width: 100%;

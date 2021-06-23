@@ -75,7 +75,7 @@ const STYLES_NAV = css`
   padding: 0 16px;
   height: 60px;
   box-sizing: unset;
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     border-bottom: 1px solid ${theme.border.default};
   }
 `;
@@ -86,14 +86,14 @@ const STYLES_MOBILE_NAV = css`
   background: ${theme.background.default};
   display: none;
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     display: flex;
     border-bottom: 1px solid ${theme.border.default};
   }
 `;
 
 const STYLES_STICKY = css`
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     position: sticky;
     top: 0px;
     z-index: 3;
@@ -101,7 +101,7 @@ const STYLES_STICKY = css`
 `;
 
 const STYLES_SEARCH_OVERLAY = css`
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     z-index: 1;
     position: fixed;
     top: 0px;
@@ -114,7 +114,7 @@ const STYLES_SEARCH_OVERLAY = css`
 `;
 
 const STYLES_HIDDEN_ON_MOBILE = css`
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     display: none;
   }
 `;
@@ -122,7 +122,7 @@ const STYLES_HIDDEN_ON_MOBILE = css`
 const SECTION_LINKS_WRAPPER = css`
   margin-left: 16px;
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     margin-left: 0px;
   }
 `;
@@ -146,7 +146,7 @@ const STYLES_MENU_BUTTON = css`
     background-color: ${theme.background.tertiary};
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     display: grid;
   }
 `;
@@ -167,7 +167,7 @@ const SECTION_LINK = css`
     background-color: ${theme.background.tertiary};
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     height: 56px;
     border-radius: 0px;
   }

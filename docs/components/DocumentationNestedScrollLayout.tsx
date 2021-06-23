@@ -12,7 +12,7 @@ const STYLES_GLOBAL = css`
     background: ${theme.background.default};
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     html {
       /* width */
       ::-webkit-scrollbar {
@@ -56,7 +56,7 @@ const STYLES_CONTAINER = css`
     border-right: 0px;
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     display: block;
     height: auto;
   }
@@ -66,11 +66,11 @@ const STYLES_HEADER = css`
   flex-shrink: 0;
   width: 100%;
 
-  @media screen and (min-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (min-width: ${Constants.breakpoints.mobile}px) {
     border-bottom: 1px solid ${theme.border.default};
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     position: sticky;
     top: -57px;
     z-index: 3;
@@ -78,7 +78,7 @@ const STYLES_HEADER = css`
 `;
 
 const SHOW_SEARCH_AND_MENU = css`
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     top: 0px;
   }
 `;
@@ -92,7 +92,7 @@ const STYLES_CONTENT = css`
   height: 100%;
   min-height: 25%;
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     height: auto;
   }
 `;
@@ -109,7 +109,7 @@ const STYLES_SIDEBAR = css`
     max-width: 280px;
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     display: none;
   }
 `;
@@ -131,7 +131,7 @@ const STYLES_CENTER = css`
   overflow: hidden;
   display: flex;
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     height: auto;
     overflow: auto;
   }
@@ -169,7 +169,7 @@ const STYLES_SCROLL_CONTAINER = css`
     background: ${theme.background.quaternary};
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     overflow-y: auto;
   }
 `;

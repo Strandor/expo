@@ -123,7 +123,7 @@ export const globalReset = css`
     font-size: 16px;
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     body {
       font-size: 14px;
     }

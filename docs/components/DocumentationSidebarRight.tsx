@@ -11,7 +11,7 @@ const STYLES_SIDEBAR = css`
   padding: 20px 24px 24px 24px;
   width: 280px;
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     width: 100%;
   }
 `;

@@ -30,7 +30,7 @@ const STYLES_INPUT = css`
     -webkit-appearance: none;
     box-sizing: border-box;
     width: 24vw;
-    max-width: ${Constants.breakpoints.mobileValue - 32}px;
+    max-width: ${Constants.breakpoints.mobile - 32}px;
     padding: 0 16px 0 40px;
     border-radius: 4px;
     height: 40px;
@@ -43,7 +43,7 @@ const STYLES_INPUT = css`
     left: 240px;
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     display: none;
   }
 
@@ -84,7 +84,7 @@ const STYLES_INPUT_MOBILE = css`
     width: calc(100vw - 32px) !important;
   }
 
-  @media screen and (max-width: ${Constants.breakpoints.mobile}) {
+  @media screen and (max-width: ${Constants.breakpoints.mobile}px) {
     display: flex;
   }
 
